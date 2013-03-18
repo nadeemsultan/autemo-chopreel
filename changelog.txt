@@ -1,0 +1,17 @@
+Autemo Chop Reel
+By: Nadeem Sultan
+
+
+Changelog
+
+
+Version 2.2 - 3/16/13
+Added Keyboard functionality
+
+Version 2.1 - 3/16/13
+Fixed Internet Explorer overflow problems
+
+Version 2.0 - 3/14/13
+Recoded entire project from scratch
+
+Version 1.0 - 11/27/2012
