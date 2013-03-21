@@ -5,6 +5,9 @@ By: Nadeem Sultan
 Changelog
 
 
+Version 2.4 - 3/20/13
+Switched from CSS3 to jQuery for cross browser support
+
 Version 2.2 - 3/16/13
 Added Keyboard functionality
 
