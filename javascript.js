@@ -31,7 +31,7 @@ $(document).ready(function(){
 
 		//keyboard functionality
 
-		$(document).keydown(function(key) {
+		/*$(document).keydown(function(key) {
 	        switch(parseInt(key.which,10)) {
 				case 37:
 					image.stop().animate({left: 0},300);
@@ -48,7 +48,7 @@ $(document).ready(function(){
 				default:
 				break;
 			}
-		});
+		});*/
 
 
 		// hover effects
