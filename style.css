@@ -1,0 +1,117 @@
+/*
+  ~ Copyright 2013-2014 Nadeem Sultan.
+  ~
+  ~ This program is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation, either version 3 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ This program is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with this program.  If not, see http://www.gnu.org/licenses/.
+  */
+
+
+body{
+	background: #528036;
+}
+
+#container{
+	width: 1024px;
+	position: relative;
+	margin: auto;
+}
+
+#slider{
+	overflow: scroll;
+	overflow-y: hidden;
+	width: 980px;
+	height: 110px;
+    padding-left: 8px;
+    padding-right: 8px;
+    position: relative;
+}
+
+#slider li{
+	float: left;
+	padding-left: 8px;
+	padding-right: 8px;
+}
+
+#slider ul{
+	list-style: none;
+	width: 2100px;
+	padding: 0;
+	margin: 0;
+}
+
+#left-arrow{
+	float: left;
+	font-size: 20px;
+	color: #000;
+	opacity: 0;
+	position: relative;
+    left: -12px;
+	top: -190px;
+	-webkit-transition: all .3s ease-in-out;
+	-moz-transition: all .3s ease-in-out;
+	transition: all .3s ease-in-out;
+}
+
+#right-arrow{
+	float: right;
+	font-size: 20px;
+	color: #000;
+	position: relative;
+	top: -190px;
+    left: 12px;
+	-webkit-transition: all .3s ease-in-out;
+	-moz-transition: all .3s ease-in-out;
+	transition: all .3s ease-in-out;
+}
+
+#left-arrow:hover , #right-arrow:hover{
+	cursor: pointer;
+	color: #BFF200;
+}
+
+#slider img{
+	position: relative;
+	width: 180px;
+	height: 110px;
+	border: none;
+	/*-webkit-transition: all .3s ease-in-out;
+	-moz-transition: all .3s ease-in-out;
+	transition: all .3s ease-in-out;*/
+}
+
+#slider div{
+	width: 170px;
+	height: 90px;
+	padding-top: 30px;
+	padding-left: 5px;
+	padding-right: 5px;
+	background: #303030;
+	opacity: .8;
+	position: relative;
+
+	color: #BFF200;
+	font-family: 'Arial';
+	font-size: 20px;
+	text-align: center;
+	-webkit-box-shadow: inset 0px 0px 50px black;
+	-moz-box-shadow: inset 0px 0px 50px black;
+	box-shadow: inset 0px 0px 50px black;
+
+	/*-webkit-transition: all .4s ease-in-out;
+	-moz-transition: all .4s ease-in-out;
+	transition: all .4s ease-in-out;*/
+}
+
+#slider a{
+	text-decoration: none;
+}
